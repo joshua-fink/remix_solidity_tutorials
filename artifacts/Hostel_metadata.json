@@ -1,0 +1,352 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "RentMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "rent_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "room_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "agreement_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "room_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "room_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rent_per_month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "tenant_address",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "landlord_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "RoomAgreementMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "room_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "agreement_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "room_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "room_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rent_per_month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "security_deposit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "lock_in_period",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "tenant_address",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "landlord_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "RoomMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "room_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "agreement_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "room_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "room_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rent_per_month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "security_deposit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "vacant",
+						"type": "bool"
+					},
+					{
+						"internalType": "address payable",
+						"name": "tenant_address",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "landlord_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_room_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_room_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rent_cost",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_security_deposit",
+						"type": "uint256"
+					}
+				],
+				"name": "addRoom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "agreementCompleted",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "agreementTerminated",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "agreement_idx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "payRent",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rent_idx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "room_idx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "signAgreement",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hostel.sol": "Hostel"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hostel.sol": {
+			"keccak256": "0x1f757a31af71154c0a7f08bd06394c055bed277c60514c5eaf7b787b899f7122",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f4b41476c42a3bab0dadd92aca4b412a5a5588345ca5948916d80aab76381b6",
+				"dweb:/ipfs/QmPy7L2VhxsE7kASCTTX8jkRHuaCwN34cK9XiQvV7iCVBa"
+			]
+		}
+	},
+	"version": 1
+}
