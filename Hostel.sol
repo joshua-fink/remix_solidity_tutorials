@@ -58,7 +58,10 @@ contract Hostel{
 
     // modifiers -> effectively like 'assert' functions
     modifier onlyLandlord(uint _index) {
-        require(msg.sender == RoomMap[_index].landlord_address, "Only landlord can access this");
+        require(
+            msg.sender == RoomMap[_index].landlord_address, 
+            "Only landlord can access this"
+        );
         _;
     }
 

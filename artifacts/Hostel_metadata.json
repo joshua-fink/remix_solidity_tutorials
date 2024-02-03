@@ -340,11 +340,11 @@
 	},
 	"sources": {
 		"Hostel.sol": {
-			"keccak256": "0x1f757a31af71154c0a7f08bd06394c055bed277c60514c5eaf7b787b899f7122",
+			"keccak256": "0x1564242b2c70250b638e121c8f7db7da4555d09b001517fc937a5856c346ad46",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2f4b41476c42a3bab0dadd92aca4b412a5a5588345ca5948916d80aab76381b6",
-				"dweb:/ipfs/QmPy7L2VhxsE7kASCTTX8jkRHuaCwN34cK9XiQvV7iCVBa"
+				"bzz-raw://39903453949faf59f5ca521feeb0dd369da6e0bd8ddd6b5ccf31a314ee921fa3",
+				"dweb:/ipfs/QmU2Aem6VrDWySU5aryN7DSQcRAqNbvDwK8MTeqKyBXGHx"
 			]
 		}
 	},

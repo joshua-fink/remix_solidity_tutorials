@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 // pragma keyword helps to configure compiler features properly
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.2;
 
 // contract - a collection of states and functions deployed on blockchain at specified address
 contract GemMine {

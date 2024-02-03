@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "location",
+						"type": "string"
+					}
+				],
+				"name": "addMine",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkStatus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getLocation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "mineID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "location",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Gem_Mine.sol": "GemMine"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Gem_Mine.sol": {
+			"keccak256": "0x204012eae4ac02581faad71e1d50277f0dc9d69fdd2acd719cc6268db71f7aea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d594e38e52d6a478538b6eebbfa74ee818e987756efccf6fd46842105c8d037",
+				"dweb:/ipfs/QmZSwVZXjL3cL12EVk8taV2xHhoVzwrgPhbDK5RSo4vyow"
+			]
+		}
+	},
+	"version": 1
+}
